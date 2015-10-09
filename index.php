@@ -5,7 +5,6 @@
 		return $arr[1];
 	}	
 		
-		
 	//$arr = [10,1,3,18,13];
 	//echo sortArray($arr);
 	
@@ -16,11 +15,15 @@
 		for($i=1;$i<$num;$i++){
 			$arr[] = $arr[$i-1] + $arr[$i];
 		}
-		
+		 
 		return $arr[$num-1];
 		
 	}
 	
 	echo fibonacci(6);
+	echo '<br /><br />';
+	echo 'Hello World';
+	
+	
 	
 ?>
